@@ -1,5 +1,7 @@
 @import './style/normalize.scss';
 @import './style/fonts.scss';
+@import './style/cards.scss';
+
 * {
     padding: 0;
     margin: 0;
@@ -13,4 +15,12 @@ button {
 ul,
 ol {
     list-style: none;
+}
+
+.grow-1 {
+    flex-grow: 1;
+}
+
+.flex {
+    display: flex;
 }
