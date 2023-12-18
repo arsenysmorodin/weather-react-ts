@@ -3,6 +3,11 @@
     flex-direction: column;
     justify-content: space-between;
     align-items: center;
+    &__container {
+        height: 100%;
+        display: flex;
+        align-items: center;
+    }
     &__list {
         display: flex;
         flex-direction: column;
@@ -10,11 +15,10 @@
         &-item {
             padding: 12px;
             border-radius: 15%;
-            // color: #c0d6df;
             &:hover {
                 background: #c0d6df;
                 & .navbar__link {
-                    color: #000000;
+                    color: #4f6d7a;
                 }
             }
             &_active {
@@ -26,6 +30,6 @@
         }
     }
     &__link {
-        color: #000000;
+        color: #4f6d7a;
     }
 }

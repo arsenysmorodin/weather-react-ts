@@ -1,13 +1,14 @@
 import './style.scss'
 import Navbar from '../components/Navbar/Navbar'
+import Header from '../components/Header/Header'
 
-function App() {
+export default function App() {
     return (
         <>
             <div className="container">
-                <Navbar></Navbar>
-                <div>
-                    <div className="locations"></div>
+                <Header></Header>
+                <div className="bottom">
+                    <Navbar></Navbar>
                     <div className="content">
                         <div className="current-weather"></div>
                         <div className="foreacts"></div>
@@ -20,5 +21,3 @@ function App() {
         </>
     )
 }
-
-export default App

@@ -1,6 +1,6 @@
 import { LogoProps } from './types'
 
-function Logo({ size }: LogoProps) {
+export default function Logo({ size }: LogoProps) {
     return (
         <svg
             xmlns="http://www.w3.org/2000/svg"
@@ -108,5 +108,3 @@ function Logo({ size }: LogoProps) {
         </svg>
     )
 }
-
-export default Logo
