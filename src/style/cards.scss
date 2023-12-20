@@ -2,12 +2,16 @@
     display: flex;
     flex-direction: column;
     justify-content: start;
+    box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.2);
+    -webkit-box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.2);
+    -moz-box-shadow: 4px 4px 20px 0px rgba(34, 60, 80, 0.2);
     border-radius: 18px;
     background: #dbe9ee;
     padding: 28px;
     width: 100%;
     height: 100%;
     font-family: 'Poppins', sans-serif;
+
     &__label {
         opacity: 0.8;
         margin: 0 0 12px 0;
@@ -15,6 +19,31 @@
         font-weight: 600;
         font-size: 18px;
         text-transform: uppercase;
+    }
+
+    &__item {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        opacity: 0.8;
+
+        font-size: 18px;
+        &-text {
+            display: flex;
+            align-items: center;
+            gap: 12px;
+            color: #4f6d7a;
+            &_bold {
+                font-weight: 600;
+            }
+        }
+    }
+
+    &__container {
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 100%;
     }
 
     &_current-weather {
@@ -36,10 +65,8 @@
             }
         }
         & .card__item {
-            display: flex;
-            align-items: center;
             gap: 12px;
-            opacity: 0.8;
+            color: #fff;
             font-size: 32px;
         }
         & .card__icon {
