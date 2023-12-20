@@ -143,6 +143,24 @@
             }
         }
     }
+    &_map {
+        flex-direction: row;
+        justify-content: space-between;
+        align-items: flex-start;
+        background: center/cover url('/src/assets/map.jpg');
+        & .card__label {
+            color: #fff;
+        }
+        & .card__button {
+            backdrop-filter: blur(6px);
+            -webkit-backdrop-filter: blur(6px);
+            box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+            border-radius: 12px;
+            background: rgba(255, 255, 255, 0.21);
+            padding: 12px;
+            color: #fff;
+        }
+    }
 }
 
 .bg {

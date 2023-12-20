@@ -5,6 +5,7 @@ import CurrentWeather from '../components/CurrentWeather/CurrentWeather'
 import Forecast from '../components/Forecast/Forecast'
 import Details from '../components/Details/Details'
 import SunMovement from '../components/SunMovement/SunMovement'
+import Map from '../components/Map/Map'
 
 export default function App() {
     return (
@@ -27,7 +28,9 @@ export default function App() {
                             <div className="content__sun-movement">
                                 <SunMovement></SunMovement>
                             </div>
-                            <div className="content__map"></div>
+                            <div className="content__map">
+                                <Map></Map>
+                            </div>
                         </div>
                     </div>
                 </div>
