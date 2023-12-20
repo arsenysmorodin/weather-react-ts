@@ -65,6 +65,7 @@
             }
         }
         & .card__item {
+            justify-content: flex-start;
             gap: 12px;
             color: #fff;
             font-size: 32px;
@@ -122,6 +123,23 @@
                     background: #4f6d7a;
                     color: #dbe9ee;
                 }
+            }
+        }
+    }
+    &_sun {
+        & .card {
+            &__container {
+                flex-direction: row;
+                justify-content: space-around;
+                align-items: start;
+            }
+            &__item {
+                flex-direction: column;
+                gap: 12px;
+                margin: 18px 0 0 0;
+                color: #4f6d7a;
+                font-weight: 600;
+                font-size: 28px;
             }
         }
     }
