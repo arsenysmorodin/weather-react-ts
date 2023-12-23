@@ -165,6 +165,25 @@
 
 .bg {
     &_clear {
-        background: center/cover url('/src/assets/current_weather_bg/clear.jpg');
+        background-image: url('/src/assets/current_weather_bg/clear.jpg');
+        background-position: center center;
+        background-size: cover;
+    }
+    &_clouds {
+        background: url('/src/assets/current_weather_bg/clouds.jpg');
+    }
+    &_rain {
+        background: url('/src/assets/current_weather_bg/rain.jpg');
+    }
+    &_thunderstorm {
+        background: url('/src/assets/current_weather_bg/thunderstorm.jpg');
+    }
+    &_snow {
+        background: url('/src/assets/current_weather_bg/snow.jpg');
+        background-size: contain;
+    }
+    &_mist {
+        background: url('/src/assets/current_weather_bg/mist.jpg');
+        background-position: center bottom -70px;
     }
 }

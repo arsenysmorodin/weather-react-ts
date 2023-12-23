@@ -3,7 +3,7 @@ import './../../style/cards.scss'
 export default function CurrentWeather() {
     return (
         <>
-            <div className="card card_current-weather bg_clear">
+            <div className="card card_current-weather bg bg_clear">
                 <span className="card__label">Today's weather</span>
                 <span className="card__temperature">
                     23
